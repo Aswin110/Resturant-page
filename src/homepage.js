@@ -1,3 +1,4 @@
+import food from './assets/food.jpg'
 
 export const homePage = () => {
     const Content = document.getElementById('content');
@@ -10,7 +11,7 @@ export const homePage = () => {
 
     const homeImage = document.createElement('img');
     homeImage.classList.add('homeImage');
-    homeImage.src = '/dist/food.jpg';
+    homeImage.src = food;
     homeImage.height = '500';
     homePageContent.appendChild(homeImage);
 

@@ -1,3 +1,6 @@
+import reservation from './assets/reservation.jpg';
+import order from './assets/order.jpg';
+import Manager from './assets/Manager.jpg';
 
 export const contactPage = () => {
     const contactContent = document.getElementById('container');
@@ -14,8 +17,9 @@ export const contactPage = () => {
     reservationHeading.textContent = "For Reservation";
     reservationContact.appendChild(reservationHeading);
 
-    const reservationImg = document.createElement('img')
-    reservationImg.src = '/dist/reservation.jpg';
+    const reservationImg = document.createElement('img');
+
+    reservationImg.src = reservation;
     reservationImg.height = '150';
     reservationContact.appendChild(reservationImg);
 
@@ -33,7 +37,8 @@ export const contactPage = () => {
     orderContact.appendChild(orderHeading);
 
     const orderImg = document.createElement('img')
-    orderImg.src = '/dist/order.jpg';
+
+    orderImg.src = order;
     orderImg.height = '150';
     orderContact.appendChild(orderImg);
 
@@ -49,8 +54,9 @@ export const contactPage = () => {
     const managerHeading = document.createElement('h3');
     managerHeading.textContent = "Manager";
     managerContact.appendChild(managerHeading);
-    const managerImg = document.createElement('img')
-    managerImg.src = '/dist/Manager.jpg';
+    const managerImg = document.createElement('img');
+
+    managerImg.src = Manager;
     managerImg.height = '150';
     managerContact.appendChild(managerImg);
 

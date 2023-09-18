@@ -1,3 +1,6 @@
+import Pittsburgh from "./assets/pittsburgh.jpeg"
+import surfTurf1 from './assets/surfTurf.jpg'
+import filetSteak1 from './assets/filetSteak.jpg'
 
 export const menuPage = () => {
     const menuContent = document.getElementById('container');
@@ -25,7 +28,7 @@ export const menuPage = () => {
     const handCutSteakImg = document.createElement('img');
     handCutSteakImg.classList.add('menuImg');
 
-    handCutSteakImg.src = '/dist/Pittsburgh-Blue-steak.webp';
+    handCutSteakImg.src = Pittsburgh;
     handCutSteakImg.height = '200';
     handCutSteakImg.width = '200';
     handCutSteak.appendChild(handCutSteakImg);
@@ -49,7 +52,7 @@ export const menuPage = () => {
     const surfTurfImg = document.createElement('img');
     surfTurfImg.classList.add('menuImg');
 
-    surfTurfImg.src = '/dist/surf-turf.jpg';
+    surfTurfImg.src = surfTurf1;
     surfTurfImg.height = '200';
     surfTurfImg.width = '200';
 
@@ -74,7 +77,7 @@ export const menuPage = () => {
     const filetSteakImg = document.createElement('img');
     filetSteakImg.classList.add('menuImg');
 
-    filetSteakImg.src = '/dist/filetSteak.jpg';
+    filetSteakImg.src = filetSteak1;
     filetSteakImg.height = '200';
     filetSteakImg.width = '200';
 
