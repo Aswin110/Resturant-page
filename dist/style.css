@@ -43,3 +43,31 @@
     border-right: 1px solid black;
     border-bottom: 1px solid white;
 }
+
+.heading{
+    padding: 40px;
+}
+
+.contact{
+    display: grid;
+    grid-template: 100px 100px/ 1fr 1fr;
+    padding: 5px;
+}
+
+.contact:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.menu{
+    display: grid;
+    grid-template: 1fr 2fr 1fr/ 1fr 2fr;
+    padding: 10px;
+}
+
+.menu:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.menuImg{
+    grid-row: 1/-1;
+}

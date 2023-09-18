@@ -8,6 +8,8 @@ export const menuPage = () => {
     menuContent.appendChild(heading);
 
     const handCutSteak = document.createElement('div');
+    handCutSteak.classList.add('menu');
+
     const handCutSteakHeading = document.createElement('h3');
     handCutSteakHeading.textContent = "Pittsburgh Blue steak";
     handCutSteak.appendChild(handCutSteakHeading);
@@ -21,12 +23,17 @@ export const menuPage = () => {
     handCutSteak.appendChild(handCutSteakPrice);
 
     const handCutSteakImg = document.createElement('img');
+    handCutSteakImg.classList.add('menuImg');
+
     handCutSteakImg.src = '/dist/Pittsburgh-Blue-steak.webp';
     handCutSteakImg.height = '200';
+    handCutSteakImg.width = '200';
     handCutSteak.appendChild(handCutSteakImg);
     menuContent.appendChild(handCutSteak);
 
     const surfTurf = document.createElement('div');
+    surfTurf.classList.add('menu');
+
     const surfTurfHeading = document.createElement('h3');
     surfTurfHeading.textContent = "Surf-Turf";
     surfTurf.appendChild(surfTurfHeading);
@@ -39,13 +46,19 @@ export const menuPage = () => {
     surfTurfPrice.textContent = "₹299";
     surfTurf.appendChild(surfTurfPrice);
 
-    const surfTurfImg = document.createElement('img')
+    const surfTurfImg = document.createElement('img');
+    surfTurfImg.classList.add('menuImg');
+
     surfTurfImg.src = '/dist/surf-turf.jpg';
     surfTurfImg.height = '200';
+    surfTurfImg.width = '200';
+
     surfTurf.appendChild(surfTurfImg);
     menuContent.appendChild(surfTurf)
 
     const filetSteak = document.createElement('div');
+    filetSteak.classList.add('menu');
+
     const filetSteakHeading = document.createElement('h3');
     filetSteakHeading.textContent = "Filet Mignon";
     filetSteak.appendChild(filetSteakHeading);
@@ -58,9 +71,13 @@ export const menuPage = () => {
     filetSteakPrice.textContent = "₹199";
     filetSteak.appendChild(filetSteakPrice);
 
-    const filetSteakImg = document.createElement('img')
+    const filetSteakImg = document.createElement('img');
+    filetSteakImg.classList.add('menuImg');
+
     filetSteakImg.src = '/dist/filetSteak.jpg';
     filetSteakImg.height = '200';
+    filetSteakImg.width = '200';
+
     filetSteak.appendChild(filetSteakImg);
     menuContent.appendChild(filetSteak)
 
