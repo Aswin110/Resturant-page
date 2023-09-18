@@ -17,7 +17,7 @@ export const contactPage = () => {
 
     const reservationImg = document.createElement('img')
     reservationImg.src = '/dist/reservation.jpg';
-    reservationImg.height = '100';
+    reservationImg.height = '150';
 
     reservationContact.appendChild(reservationImg);
     contactContent.appendChild(reservationContact);
@@ -33,7 +33,7 @@ export const contactPage = () => {
 
     const orderImg = document.createElement('img')
     orderImg.src = '/dist/order.jpg';
-    orderImg.height = '100';
+    orderImg.height = '150';
 
     orderContact.appendChild(orderImg);
     contactContent.appendChild(orderContact);
@@ -49,7 +49,7 @@ export const contactPage = () => {
 
     const managerImg = document.createElement('img')
     managerImg.src = '/dist/Manager.jpg';
-    managerImg.height = '100';
+    managerImg.height = '150';
 
     managerContact.appendChild(managerImg);
     contactContent.appendChild(managerContact)
