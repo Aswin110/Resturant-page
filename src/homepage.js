@@ -17,7 +17,9 @@ export const homePage = () => {
     const homeDescription = document.createElement('p');
     homeDescription.classList.add('homeDescription');
     homeDescription.textContent = "An evening out at a steakhouse is an occasional indulgence we like to enjoy now and then. It’s a great way to celebrate a birthday, anniversary or maybe to impress a first date.It offers hand-cut steaks, as well as surf and turf steak combos. There are also ribs, chicken and fish dishes on the menu, so no matter what, there is something to satisfy the whole family.";
+    homeDescription.style.padding = '10px';
     homePageContent.appendChild(homeDescription);
+
 
     Content.appendChild(homePageContent);
 }
